@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
 import Cookies from 'js-cookie'
+import './index.css'
 
 const apiStatusConstants = {
   initial: 'INITIAL',
@@ -95,7 +96,6 @@ class ProfileDetails extends Component {
   }
 
   render() {
-    // console.log('render')
     return <>{this.renderProfileDetails()}</>
   }
 }

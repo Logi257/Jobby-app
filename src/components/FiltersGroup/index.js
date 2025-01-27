@@ -1,6 +1,7 @@
 import {BsSearch} from 'react-icons/bs'
 
 import ProfileDetails from '../ProfileDetails'
+import './index.css'
 
 const FiltersGroup = props => {
   const onChangeSearchInput = event => {

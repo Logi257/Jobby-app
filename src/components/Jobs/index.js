@@ -3,7 +3,7 @@ import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
 import {BsSearch} from 'react-icons/bs'
 import Header from '../Header'
-import FiltersGroup from '../FiltersGroup/index'
+import FiltersGroup from '../FiltersGroup'
 import JobCard from '../JobCard'
 
 import './index.css'
