@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-color: black;
+}
+.retry-button {
+  border: 0;
+  outline: 0;
+  color: #ffffff;
+  background-color: #4f46e5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 50px;
+  width: 100px;
+}
+.head {
+  color: #ffffff;
+}
+.para {
+  color: #ffffff;
+}
+.error-img {
+  height: 270px;
+  width: 350px;
+}

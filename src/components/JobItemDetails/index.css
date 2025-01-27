@@ -1,0 +1,133 @@
+/* Job Item Details Component Styles */
+
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.job-details-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.job-details-header img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.job-info-item {
+  font-size: 14px;
+  color: #7f8c8d;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.skill img {
+  max-width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-size: 12px;
+  color: #34495e;
+}
+
+.life-at-company {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.life-at-company img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.life-description {
+  font-size: 14px;
+  color: #7f8c8d;
+  flex: 1;
+}
+
+.similar-jobs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.similar-job-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+.similar-job-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.similar-job-info {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.retry-button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
